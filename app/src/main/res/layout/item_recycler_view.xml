@@ -23,101 +23,95 @@
         android:layout_centerVertical="true"
         android:layout_toEndOf="@id/ivAvatar">
 
-    <RelativeLayout
-        android:id="@+id/rlName"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_marginStart="10dp"
-        >
+        <RelativeLayout
+            android:id="@+id/rlName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp">
 
-        <TextView
-            android:id="@+id/tvRepository"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:text="@string/repositoryName"
-            android:textColor="@color/black"
-            android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tvRepository"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/repositoryName"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/tvRepositoryName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_toEndOf="@id/tvRepository"
-            android:maxLines="1"
-            android:textColor="@color/black"
-            android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tvRepositoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_toEndOf="@id/tvRepository"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
 
-    </RelativeLayout>
-
+        </RelativeLayout>
 
 
+        <RelativeLayout
+            android:id="@+id/rlViews"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/rlName"
+            android:layout_marginStart="10dp">
 
+            <TextView
+                android:id="@+id/tvViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/views"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
 
-    <RelativeLayout
-        android:id="@+id/rlViews"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_below="@id/rlName"
-        android:layout_marginStart="10dp"
-        >
+            <TextView
+                android:id="@+id/tvViewsNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_toEndOf="@id/tvViews"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/tvViews"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:text="@string/views"
-            android:textColor="@color/black"
-            android:textSize="12sp" />
+        </RelativeLayout>
 
-        <TextView
-            android:id="@+id/tvViewsNumber"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_toEndOf="@id/tvViews"
-            android:maxLines="1"
-            android:textColor="@color/black"
-            android:textSize="12sp" />
+        <RelativeLayout
+            android:id="@+id/rlDescription"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/rlViews"
+            android:layout_marginStart="10dp">
 
-    </RelativeLayout>
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/language"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
 
-    <RelativeLayout
-        android:id="@+id/rlDescription"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_below="@id/rlViews"
-        android:layout_marginStart="10dp"
-        >
+            <TextView
+                android:id="@+id/tvRepoDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_toEndOf="@id/tvDescription"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/tvDescription"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:text="@string/language"
-            android:textColor="@color/black"
-            android:textSize="12sp" />
-
-        <TextView
-            android:id="@+id/tvRepoDescription"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_toEndOf="@id/tvDescription"
-            android:maxLines="1"
-            android:textColor="@color/black"
-            android:textSize="12sp" />
-
-    </RelativeLayout>
+        </RelativeLayout>
 
     </RelativeLayout>
 
